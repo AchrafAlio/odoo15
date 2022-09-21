@@ -7,8 +7,9 @@
     'category': 'Productivity/Discuss',
     'website': 'https://www.softifi.com',
     'license': 'LGPL-3',
-    'depends': [],
+    'depends': [ 'base'],
     'data': [
+        'security/ir.model.access.csv',
         'views/patient.xml'
     ],
     'demo': [],
